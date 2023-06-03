@@ -1,0 +1,216 @@
+.container {
+  background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    width: 80%;
+    /* position: relative; */
+    opacity: 0.95;
+}
+
+.middle-ground {
+  /* height: 100%; */
+  padding: 100px;
+}
+
+.title {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 50px;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 2vh;
+  margin-top: -10vh;
+}
+
+.logout {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #dc3545;
+  color: #fff;
+  margin-top: 13vh;
+}
+
+.logout:hover {
+  background-color: #c82333;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+form {
+  /* display: flex; */
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  width: 50vh;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  margin-left: 10px;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.books {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-height: 600px; /* Set a maximum height for the container */
+  overflow-y: auto; /* Enable vertical scrolling */
+  margin-bottom: 20px;
+}
+
+.book {
+  border: 1px solid #ddd;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #f5f5f5;
+}
+
+.book img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.book h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.book p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.book span {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.delete,
+.update {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  margin-left: 10px;
+  margin-bottom: 2vh;;
+}
+
+.delete:hover,
+.update:hover {
+  background-color: #0056b3;
+}
+
+.rating {
+  margin-bottom: 3vh;
+}
+.details {
+  padding: 10px 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: peru;
+  color: #fff;
+  margin-left: 10px;
+}
+
+.add_book {
+  padding: 15px 25px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #A9A9A9;
+  color: #fff;
+  margin-left: 10px;
+  margin-top: 4vh;
+}
+
+.add_book:hover {
+  background-color: gray;
+}
+
+.remove_from_wishlist {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #dc3545;
+  color: #fff;
+  margin-left: 10px;
+}
+
+.add_to_wishlist {
+  padding: 10px 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: peru;
+  color: #fff;
+  margin-left: 10px;
+}
+
+.wishlist_item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 7px;
+  justify-content: center;
+}
+
+.wishlist {
+  margin-top: 200px; /* Add margin to create space between books and wishlist */
+  background-color: #fff; /* Set background color to white */
+  padding: 20px; /* Add padding for spacing */
+  border-radius: 5px; /* Add border radius for rounded corners */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+  .wishlist h2 {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 30px;
+  }
+
+.wish_title_div {
+  flex: 1;
+  margin-left: 50vh;
+}
+
+.button_div {
+  display: flex;
+  flex-direction: column;
+  margin-right: 55vh;
+}
